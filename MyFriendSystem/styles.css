@@ -1,0 +1,155 @@
+/* General Styles */
+body {
+ background-color: #fffacd; 
+    font-family: Arial, sans-serif; /*font Arial, sans-serif*/
+    margin: 0;
+    padding: 20px;
+    background-color: white; 
+
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(144, 238, 144, 0.7);
+
+
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+a {
+    text-decoration: none;
+
+    color: #28a745; /* Green color */
+    padding: 5px;
+
+    border: 1px solid #28a745;
+    border-radius: 3px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a:hover {
+    background-color: #28a745; /* light green*/
+    color: white;
+}
+
+
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.link-container a {
+    padding: 10px;
+    text-align: center;
+    background-color: #e7f5e7; /* ligehter green for butns */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.link-container a:hover {
+    background-color: green; /* green on hover 'signup 'logout' 'about' btns */
+    color: white;
+}
+
+.material-icons {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* Media Queries used for responsive design*/
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+/* Styles for 'Sign-up' Form */
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+h1, h2 {
+    color: #28a745; 
+}
+
+
+
+.form-label {
+    font-weight: bold;
+}
+
+.text-danger {
+    font-size: 0.8em; /*small font for erorr msg */
+    color: red;
+}
+
+
+button[type="submit"] {
+    background-color: #28a745;
+
+    border-color: #28a745;
+
+}
+
+
+button[type="submit"]:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+
+}
+
+button[type="reset"] {
+    background-color: grey;
+    border-color: grey;
+}
+
+
+button[type="reset"]:hover {
+    background-color: grey;
+    border-color: grey;
+
+
+}
+
+
+a.btn-link {
+    color: #28a745;
+    text-decoration: none;
+}
+
+
+
+
+a.btn-link:hover {
+    color: #1e7e34;
+
+    text-decoration: underline;
+}
+
+
+.shadow {
+    box-shadow: 0 0 15px rgba(0, 1, 0, 0.2);
+}
